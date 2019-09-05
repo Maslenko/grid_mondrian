@@ -1,0 +1,53 @@
+.body {
+    margin: 0; 
+}
+
+.box {
+    width: 700px;
+    height: 500px; 
+    border: 1px solid black; 
+}
+
+.picture {
+    display: grid;
+    border: 1px solid black; 
+    grid-template-columns: repeat(9, 10%);
+    grid-template-rows: repeat(8, 10%);
+    grid-gap: 10px; 
+}
+
+.cell-1 {
+    width: 18px;
+    height: 88px;
+    background-color: lightgray; 
+}
+
+.cell-2 {
+    width: 270px;
+    height: 20px; 
+    background-color: lightgray; 
+}
+
+.cell-3 {
+    width: 310px;
+    height: 20px; 
+    background-color: lightgray; 
+}
+
+.cell-4 {
+    width: 34px;
+    height: 238px; 
+    background-color: lightgray; 
+}
+
+.cell-5 {
+    width: 34px;
+    height: 238px; 
+    background-color: yellow; 
+}
+
+/*.first-cell {
+    width: 18px;
+    height: 83px; 
+    background-color: grey; 
+}*/
